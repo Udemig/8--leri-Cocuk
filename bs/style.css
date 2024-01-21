@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  padding: 0px 9% 0px;
+}
+#logo img {
+  width: 190px;
+  margin-top: 3px;
+}
+.nav-item .nav-link:hover {
+  color: crimson !important;
+}
+#btn {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid crimson;
+  background: transparent;
+  color: crimson;
+  transition: all 0.5s;
+}
+#btn:hover {
+  background-color: crimson;
+  color: white;
+}
+/* home section start */
+.home {
+  width: 100%;
+  height: 100vh;
+  padding: 5px 11% 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home .img {
+  flex: 1 1 300px;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px; */
+}
+.home .img img {
+  width: 100%;
+  margin-left: 60px;
+}
+.home-content {
+  flex: 1 1 400px;
+  margin-top: 30px;
+}
+@media (max-width: 875px) {
+  .home .img img {
+    margin-left: 0px;
+  }
+}
+/* top section start */
+.top-section {
+  padding: 10px 11% 100px;
+}
+.top-section .row {
+  margin-top: 30px;
+  align-items: center;
+}
+.top-section .row .card img {
+  width: 200px;
+  margin: auto;
+}
+/* top section end */
+/* our menu */
+.menu {
+  padding: 10px 11% 100px;
+}
+.rating i {
+  color: #f9a502;
+}
+.menu p {
+  margin-top: 8px;
+  font-weight: bolder;
+}
+.menu p i {
+  float: right;
+  color: crimson;
+}
+/* order */
+.order {
+  padding: 100px 11% 100px;
+}
