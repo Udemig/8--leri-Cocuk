@@ -2,6 +2,17 @@
   margin: 0;
   padding: 0;
 }
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+html::-webkit-scrollbar-thumb {
+  background: crimson;
+  border-radius: 10px;
+}
+
 #navbar {
   padding: 0px 9% 0px;
 }
@@ -84,4 +95,42 @@
 /* order */
 .order {
   padding: 100px 11% 100px;
+}
+/* review */
+.review {
+  padding: 100px 11% 100px;
+}
+@media (min-width: 768px) {
+  #content {
+    padding: 100px;
+  }
+}
+/* contact section */
+.contact {
+  padding: 100px 11% 100px;
+}
+/* footer */
+#footer {
+  padding: 15px 11% 15px;
+}
+.f-content {
+  text-align: center;
+}
+.f-logo img {
+  width: 250px;
+}
+.f-content i {
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.f-content i:hover {
+  background: crimson;
+  border-radius: 5px;
+  color: white;
+}
+.c-content {
+  text-align: center;
 }
